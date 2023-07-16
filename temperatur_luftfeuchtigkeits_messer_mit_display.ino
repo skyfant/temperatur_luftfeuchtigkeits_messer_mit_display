@@ -12,7 +12,7 @@
 
 #define DHT_TYPE DHT22
 
-#define LCD_ADDRESS 0x27
+#define LCD_ADDRESS 0x3F
 
 // + -> 3V,   out/data -> G4,   - -> GND
 DHT dht(DHT_PIN, DHT_TYPE);
